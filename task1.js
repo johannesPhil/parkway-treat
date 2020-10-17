@@ -88,7 +88,7 @@ function warnTheDeveloper(n, m, s) {
 		candyHeader.textContent = "Treats";
 		candyNum.textContent = m;
 
-		seatHeader.textContent = "Seat No";
+		seatHeader.textContent = "Seat";
 		seatNum.textContent = s;
 
 		warnHeader.textContent = "Warn";
