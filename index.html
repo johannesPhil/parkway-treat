@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<form action="" name="distribute">
+				<div class="form-control">
+					<label for="devs">Developers</label>
+					<input type="number" name="devs" id="devs" required />
+				</div>
+				<div class="form-control">
+					<label for="candy">Candy</label>
+					<input type="number" name="candy" id="candy" required />
+				</div>
+				<span class="error"></span>
+				<input type="submit" value="Distribute" />
+			</form>
+			<hr />
+			<div class="output">
+				<div class="devs">
+					<h3 class="devs__header"></h3>
+					<p class="devs__num"></p>
+				</div>
+				<div class="candy">
+					<h3 class="candy__header"></h3>
+					<p class="candy__num"></p>
+				</div>
+				<div class="seat">
+					<h3 class="seat__header"></h3>
+					<p class="seat__num"></p>
+				</div>
+				<div class="warn">
+					<h3 class="warn__header"></h3>
+					<p class="warn__text"></p>
+				</div>
+			</div>
+		</div>
+		<script src="/task1.js"></script>
+	</body>
+</html>
